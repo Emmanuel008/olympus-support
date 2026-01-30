@@ -52,7 +52,7 @@ export default function AboutUs() {
           >
             <div className="relative rounded-lg shadow-2xl overflow-hidden">
               <Image
-                src="/img/insu.jpg"
+                src="/img/samafore.jpg"
                 alt="About Us"
                 width={600}
                 height={400}

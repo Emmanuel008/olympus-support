@@ -311,21 +311,6 @@ export default function InsurancePage() {
                 </div>
               </div>
             </motion.div>
-
-            {/* IDP - Insurance Digital Platform */}
-            <motion.div
-              className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-900 text-center group"
-              variants={cardVariants}
-              whileHover={{ y: -2 }}
-            >
-              <div className="flex items-center justify-center mx-auto mb-3 group-hover:scale-105 transition-transform duration-300">
-                <svg className="w-8 h-8 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                </svg>
-              </div>
-              <h4 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-900 transition-colors">IDP - Insurance Digital Platform</h4>
-              <p className="text-sm text-gray-600 text-left">We provide a digital platform for "passenger insurance"</p>
-            </motion.div>
           </motion.div>
         </div>
       </section>
@@ -368,15 +353,6 @@ export default function InsurancePage() {
               <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Accountants Practice</h4>
             </motion.div>
 
-            {/* Architects, Engineers and Surveyors */}
-            <motion.div
-              className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-900 text-center group"
-              variants={cardVariants}
-              whileHover={{ y: -2 }}
-            >
-              <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Architects, Engineers and Surveyors</h4>
-            </motion.div>
-
             {/* Agriculture and Horticulture */}
             <motion.div
               className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-900 text-center group"
@@ -395,13 +371,22 @@ export default function InsurancePage() {
               <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Energy</h4>
             </motion.div>
 
-            {/* Engineering & Consultancy */}
+            {/* Engineering */}
             <motion.div
               className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-900 text-center group"
               variants={cardVariants}
               whileHover={{ y: -2 }}
             >
-              <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Engineering & Consultancy</h4>
+              <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Engineering</h4>
+            </motion.div>
+
+            {/* Consultancy */}
+            <motion.div
+              className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-900 text-center group"
+              variants={cardVariants}
+              whileHover={{ y: -2 }}
+            >
+              <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Consultancy</h4>
             </motion.div>
 
             {/* Financial Services */}
@@ -413,32 +398,6 @@ export default function InsurancePage() {
               <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Financial Services</h4>
             </motion.div>
 
-            {/* Fine Art - Jewellery */}
-            <motion.div
-              className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-900 text-center group"
-              variants={cardVariants}
-              whileHover={{ y: -2 }}
-            >
-              <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Fine Art - Jewellery</h4>
-            </motion.div>
-
-            {/* Fitness */}
-            <motion.div
-              className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-900 text-center group"
-              variants={cardVariants}
-              whileHover={{ y: -2 }}
-            >
-              <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Fitness</h4>
-            </motion.div>
-
-            {/* Food & Drink */}
-            <motion.div
-              className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-900 text-center group"
-              variants={cardVariants}
-              whileHover={{ y: -2 }}
-            >
-              <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Food & Drink</h4>
-            </motion.div>
 
             {/* Government Contractors */}
             <motion.div
@@ -458,15 +417,6 @@ export default function InsurancePage() {
               <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Health Care</h4>
             </motion.div>
 
-            {/* Leisure */}
-            <motion.div
-              className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-900 text-center group"
-              variants={cardVariants}
-              whileHover={{ y: -2 }}
-            >
-              <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Leisure</h4>
-            </motion.div>
-
             {/* Marine */}
             <motion.div
               className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-900 text-center group"
@@ -476,32 +426,15 @@ export default function InsurancePage() {
               <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Marine</h4>
             </motion.div>
 
-            {/* Mining and Metals */}
+            {/* Mining */}
             <motion.div
               className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-900 text-center group"
               variants={cardVariants}
               whileHover={{ y: -2 }}
             >
-              <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Mining and Metals</h4>
+              <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Mining</h4>
             </motion.div>
 
-            {/* Real Estate Practice */}
-            <motion.div
-              className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-900 text-center group"
-              variants={cardVariants}
-              whileHover={{ y: -2 }}
-            >
-              <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Real Estate Practice</h4>
-            </motion.div>
-
-            {/* Pulp & Paper */}
-            <motion.div
-              className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-900 text-center group"
-              variants={cardVariants}
-              whileHover={{ y: -2 }}
-            >
-              <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Pulp & Paper</h4>
-            </motion.div>
 
             {/* Real Estate */}
             <motion.div
@@ -512,31 +445,13 @@ export default function InsurancePage() {
               <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Real Estate</h4>
             </motion.div>
 
-            {/* Reinsurance */}
+            {/* Logistics */}
             <motion.div
               className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-900 text-center group"
               variants={cardVariants}
               whileHover={{ y: -2 }}
             >
-              <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Reinsurance</h4>
-            </motion.div>
-
-            {/* Relocation */}
-            <motion.div
-              className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-900 text-center group"
-              variants={cardVariants}
-              whileHover={{ y: -2 }}
-            >
-              <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Relocation</h4>
-            </motion.div>
-
-            {/* Renewables */}
-            <motion.div
-              className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-blue-900 text-center group"
-              variants={cardVariants}
-              whileHover={{ y: -2 }}
-            >
-              <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Renewables</h4>
+              <h4 className="text-base font-semibold text-gray-900 group-hover:text-blue-900 transition-colors">Logistics</h4>
             </motion.div>
           </motion.div>
         </div>
